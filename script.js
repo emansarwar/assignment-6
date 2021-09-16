@@ -7,6 +7,7 @@ const searchBook = () => {
     if (searchText === '') {
         errorDiv.style.display = 'block';
     }
+    
     else {
         //fetch api
         const url = `https://openlibrary.org/search.json?q=${searchText}`
